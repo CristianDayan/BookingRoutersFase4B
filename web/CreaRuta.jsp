@@ -68,7 +68,7 @@ $(document).ready(function(){
 </div>
 <nav>
 <ul id="main">
-    <li><a href="Index.jsp">Inicio</li></a>
+    <li><a href="verificarRegistro.jsp">Inicio</li></a>
      
         <li><a align="center" href="#" style="text-decoration: none;">Gestion de Rutas</a>
                             <ul class="submain">
@@ -82,6 +82,7 @@ $(document).ready(function(){
                                 <li><a href="cambiarContraseña.jsp" style="text-decoration: none;">Cambiar Contraseña</a> </li>
                                 </ul>
                         </li>
+                         <li><div align="center"><a href="Index.html" style="text-decoration: none;"><span class="glyphicon glyphicon-remove-sign"></span>Cerrar sesion</li>
       
         </ul>
 

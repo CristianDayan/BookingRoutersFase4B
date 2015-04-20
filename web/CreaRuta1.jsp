@@ -31,17 +31,12 @@
 </div>
 <nav>
 <ul id="main">
-    <li><a href="Index.jsp" style="text-decoration: none;">Home</li></a>
-       <li><a align="center" href="#">Bookings</a>
-                            <ul class="submain">
-                                <li><a href="reserva.jsp" style="text-decoration: none;">New Application </a></li>
-                                <li><a href="mreserva.html" style="text-decoration: none;">My Bookings</a> </li>
-                                </ul>
-                        </li>
+    <li><a href="verificarRegistro1.jsp" style="text-decoration: none;">Home</a></li>
+      
         <li><a align="center" href="#">Route Management</a>
                             <ul class="submain">
-                                <li><a href="CreaRuta.jsp?msj=" style="text-decoration: none;">Creating Routes</a></li>
-                                <li><a href="ModRuta.jsp?msj=" style="text-decoration: none;">Modification of Routes</a> </li>
+                                <li><a href="CreaRuta1.jsp?msj=" style="text-decoration: none;">Creating Routes</a></li>
+                                <li><a href="ModRuta1.jsp?msj=" style="text-decoration: none;">Modification of Routes</a> </li>
                                 </ul>
                         </li>
                          <li><a align="center" href="#">My Account</a>
@@ -50,6 +45,7 @@
                                 <li><a href="cambiarContraseña.jsp" style="text-decoration: none;">Change Password</a> </li>
                                 </ul>
                         </li>
+                         <li><div align="center"><a href="Index.html" style="text-decoration: none;"><span class="glyphicon glyphicon-remove-sign"></span>Cerrar sesion</li>
       
         </ul>
 

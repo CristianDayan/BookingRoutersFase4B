@@ -68,13 +68,8 @@ $(document).ready(function(){
 </div>
 <nav>
 <ul id="main">
-    <li><a href="Index.jsp" style="text-decoration: none;">Inicio</li></a>
-       <li><a align="center" href="#" style="text-decoration: none;">Reservas</a>
-                            <ul class="submain">
-                                <li><a href="reserva.jsp" style="text-decoration: none;">Nueva Solicitud </a></li>
-                                <li><a href="mreserva.html" style="text-decoration: none;">Mis Reservas</a> </li>
-                                </ul>
-                        </li>
+    <li><a href="verificarRegistro.jsp" style="text-decoration: none;">Inicio</li></a>
+       
         <li><a align="center" href="#" style="text-decoration: none;">Gestion de Rutas</a>
                             <ul class="submain">
                                 <li><a href="CreaRuta.jsp?msj=" style="text-decoration: none;">Creación de Rutas</a></li>
@@ -87,6 +82,7 @@ $(document).ready(function(){
                                 <li><a href="cambiarContraseña.jsp" style="text-decoration: none;">Cambiar Contraseña</a> </li>
                                 </ul>
                         </li>
+                         <li><div align="center"><a href="Index.html" style="text-decoration: none;"><span class="glyphicon glyphicon-remove-sign"></span>Cerrar sesion</li>
       
         </ul>
 
